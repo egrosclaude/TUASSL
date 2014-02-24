@@ -1,0 +1,47 @@
+digraph trabajoII {
+	layout = fdp;
+	ratio = fill;
+	splines = true;
+	K = 1;
+	maxiter = 100;
+
+	Descargas [ shape = box, label = "Gestor de descargas", tooltip  = "Recientemente nos cambiamos del SO Windows a Ubuntu, y buscamos un gestor de descargas compatible con el mismo, como alternativa del IDM (internet download manager) diseñado solo para windows. Necesitamos que el gestor: - Soporte protocolos HTTP, FTP, RSTP y BitTorrent - Permita descarga en fragmentos - Sea open-source - Trabaje con conexiones lentas - Cuente con diversas opciones para el manejo de las descargas - Que sea ligero, no consuma demasiados recursos. --GRUPO BUGBUSTERZ" ];
+
+	Backups [ shape = box, label= "Automatización de Backups", tooltip = "Se requiere un sistema para automatización de backups que cumplan los siguientes requerimientos mínimos: - Licencia GPL - Capacidad de crear copias de seguridad en un equipo, en una red local o incluso en/desde un servidor FTP. - Multiplataforma. - Realización de backup full, incremental y diferencial. - Programación de backups diarios, semanales y mensuales. - Apagado de equipo post-backup. - Filtrado de archivos por máscara, exclusión de directorios, etc. - Soporte compresión y cifrados de Archivos. Interfaz gráfica. --GRUPO PI" ];
+
+	Lector [ shape = box, label = "Lector de texto", tooltip = "Resulta que tenemos un amigo no vidente, estudiante de la UNCo , y usa como herramienta su pc, pero debido a su discapacidad usa un software que lee toda la pantalla, estaría bueno encontrar un proyecto para esta necesidad... Las especificaciones serian algo como: - Lectura de textos, paginas web, documentos y programas. - Facilidad de uso de acuerdo con la discapacidad. - Reconocimiento y búsqueda por voz. - Idioma español. -Multiplataforma. -Preferentemente licencia GPL. --GRUPO Beta" ];
+
+	Mysql [ shape = box, label = MySQL, tooltip =  "Interface gráfica (GUI o vía web) para administrar bases de datos MySQL Capacidad para conectar con distintos servidores MySQL Capacidad para ver y modificar la estructura de tablas Capacidad para ver y modificar el contenido de la base en forma directa Capacidad para ejecutar consultas en lenguaje SQL Capacidad para generar consultas y ordenamientos de datos sin utilizar lenguaje SQL Capacidad para importar / exportar datos y estructuras a/de distintos formatos de archivos Capacidad para realizar tareas administrativas (crear, borrar, copiar, asignar/quitar privilegios) Capacidad para agregar triggers a la base de datos En español y preferentemente con licencia compatible con GPL. --GRUPO X" ];
+
+	Parental [ shape = box, label = "Control parental", tooltip = "Aplicacion que nos brinde control parental tanto en la pc como en la web. Las necesidades son las siguientes:  -Licencia GPL. -Interfaz amigable, flexible e intuitiva. -Varios Idiomas. -Filtrado de contenidos en la Web. -Registrar actividad del menor en redes sociales, haciendo un informe periodico de  tales actividades. -Administracion del software que se ejecuta en la maquina, por ejemplo control en la ejecucion de juegos, dependiendo de la edad. -Tiempo que se hace uso de la pc e internet y poder configurarlo.  - Indicar las distintas alternativas de instalacion, ya sea local(en la pc) o en la web. -Multiplataforma. -Multiusuario. -Monitorizacion remota. --GRUPO ASL"];
+
+	AdmInform [ shape = box, label = "Negocios informáticos", tooltip = "Software que se utilice para la adiministración de negocios informaticos.  Dicho software debe tener las siguientes características: -Licencia GPL u Open Source -Multiusuario -Funciones para; clientes, proveedores, ventas, cotrol de Mercadería, ordenes de trbajo, ...  -Posibilidad de realizar Backup de toda la informacióni -- GRUPO SL2013"];
+
+	ByAlpha [ shape = box, label = "Ambiente Windows", tooltip = "Cambio de Windows a GNU/Linux: se requiere de un software que permita instalar la interfaz gráfica (el escritorio de windows)integrado al Escritorio GNOME para que sea mas amigable al traspaso de los usuarios finales de Windows a GNU/Linux. Especificaciones: Licencia GPL u open-sourse - Fácil instalación - correr programas de windows en GNU/Linux sin problemas - Interfaz Amistosa - Que no sea una maquina virtual - Que no sea un emulador - Observaciones: debido a que hemos presentado nuestro requerimiento demasiado tarde, si hay algún grupo interesado en intercambiar el trabajo por este, no tendríamos problemas en acceder. -- GRUPO ALPHA"];
+
+	Beta [ label = "grupo Beta", tooltip = "Araya Martín - Bertazzo Melani- Farias Juan - Jeldres Pablo - Suero Eduardo" ];
+	GrupoX [ label = "grupo X", tooltip = "Cristian Torino - Lucrecia Vasquez - Jessica Hidalgo - Guillermo Lisotti" ];
+	Alpha[ label = "grupo Alpha", tooltip = "Marcos Oribe - Sebastian Pinto - Walter Navarro - Marco Galan - Santiago Briceño" ];
+	BugBusterz[ label = "grupo BugBusterz", tooltip = "Bianca Abarzúa - Jorge Calfueque - Lucas Gonzalez" ];
+	GrupoPI [ label = "grupo PI", tooltip = "Cristian Celescinco - Christian Ruggeri" ];
+	ASL [label = "grupo ASL", tooltip = "Carlos Ontiveros - David Nicolás Sammartino"];
+	SL2013 [label = "Grupo SoftLibre2013", tooltip = "Emiliano Serna - Jonatan Ramos"];
+
+# Proponen
+BugBusterz -> Descargas [dir = none];
+ASL -> Parental [dir = none];
+GrupoPI -> Backups [dir = none];
+Beta -> Lector [dir = none];
+GrupoX -> Mysql [dir = none];
+SL2013 -> AdmInform [dir = none];
+Alpha -> ByAlpha [dir = none ];
+
+# Toman
+Beta -> Descargas ;
+GrupoX -> Backups ;
+ASL -> Mysql ;
+BugBusterz -> Parental;
+SL2013 -> Lector;
+GrupoPI -> AdmInform;
+#Alpha -> ;
+}

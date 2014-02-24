@@ -1,4 +1,12 @@
 version=0.6.0
 typesetter=pdflatex
 steps=texpdf
-root=/home/oso/Documents/TUASSL/SL.tex
+root=/home/oso/Documents/TUASSL/TUASSL/trunk/SL.tex
+
+file=/home/oso/Documents/TUASSL/TUASSL/trunk/SL-part2-1.tex
+file=/home/oso/Documents/TUASSL/TUASSL/trunk/SL-part2-2.tex
+file=/home/oso/Documents/TUASSL/TUASSL/trunk/SL-part2-3.tex
+file=/home/oso/Documents/TUASSL/TUASSL/trunk/SL-part2-4.tex
+file=/home/oso/Documents/TUASSL/TUASSL/trunk/SL-part2-5.tex
+file=/home/oso/Documents/TUASSL/TUASSL/trunk/SL-part1.tex
+file=/home/oso/Documents/TUASSL/TUASSL/trunk/SL-anexos.tex

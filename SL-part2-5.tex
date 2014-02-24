@@ -12,14 +12,194 @@
 
 \section{Producción de y con Software Libre}
 
-\subsection {Motivaciones para producir SL}
+\subsection {Adopción estratégica de Software Libre}
+\begin{enumerate}
+	\item Usar SL
+	\item Reportar bugs o solicitudes de características
+	\item Aportar patches o código
+	\item Convertirse en miembro de la comunidad de usuarios y desarrolladores
+\end{enumerate}
 
+\subsection {Desarrollo de proyectos de Software}
+\begin{itemize}
+	\item Metodologías de análisis y diseño
+	\item Etapas básicas
+	\begin{itemize}
+	\item Estudio de viabilidad
+	\subitem En esta fase se considera si el proyecto se
+puede realizar, teniendo en cuenta las circunstancias internas y
+externas, las diferentes soluciones posibles y los recursos de los
+cuales se dispone.
+	\end{itemize}
+	\begin{itemize}
+	\item Análisis
+	\subitem Se analizan las necesidades que se desea satisfacer con
+el nuevo proyecto, se ajustan los objetivos finales y se centra la solución
+tecnológica. También en esta fase se definen las interfaces
+entre los diferentes subsistemas que formarán el proyecto y las de
+usuario que permitirán interactuar con el sistema.
+\end{itemize}
+	\begin{itemize}
+	\item Diseño
+	\subitem En esta fase se realiza el diseño tecnológico de la solución
+escogida, proponiendo una arquitectura global y analizando
+y estudiando todos los casos de usos (o los más representativos)
+existentes.
+\end{itemize}
+\begin{itemize}
+	\item  Desarrollo
+	\subitem En esta fase se construye la solución propuesta teniendo
+en cuenta el entorno utilizado, se escogen las licencias, se
+genera la documentación y se ejecutan las pruebas acordes al
+tipo de proyecto y metodología utilizada.
+\end{itemize}
+	\begin{itemize}
+	\item Implantación
+	\subitem Se traspasa del entorno de desarrollo al sistema
+real y se realizan todas las pruebas y medidas de niveles de prestaciones que conducirán a la aceptación definitiva de proyecto. Se define también el plan de mantenimiento y se toman las decisiones adecuadas para el correcto funcionamiento del sistema durante el resto de su vida.
+	\end{itemize}
+\end{itemize}
+
+
+\subsection {Proyecto de software tradicional vs. SL}
+\begin{itemize}
+\item Modos de desarrollo
+	\begin{itemize}
+	\item Interno
+		\begin{itemize}
+		\item Binarios -ocasionalmente fuentes- liberados una vez que se ha validado internamente el desarrollo
+		\item Soporte via foros propios o sistema web de tickets
+		\item Modificaciones disponibles luego de testing interno, altas demoras
+		\item Bases de datos de bugs disponibles solamente para la organización
+		\item Desarrollo, validación, soporte, llevados a cabo por el proveedor
+		\end{itemize}
+	\item Abierto
+		\begin{itemize}
+		\item Administración de fuentes a través de repositorios públicos (CVS, SVN, GIT)
+		\item Soporte via foros, listas, IRC, etc.
+		\item Modificaciones disponibles en las listas y repositorios
+		\item Páginas de proyecto como documentación básica para los usuarios
+		\item Implica relacionarse con nuevas tecnologías y modelos de desarrollo
+		\end{itemize}
+	\end{itemize}
+\item Modos de valuación
+	\begin{itemize}
+	\item Precio del software tradicional en función de un costo en horas de desarrollo
+	\item El desarrollo del SL es soportado por la comunidad
+		\begin{itemize}
+		\item Luego desaparece la preocupación por el costo de desarrollo
+		\item Desplazar el interés económico de la programación a los servicios
+		\item Caso extremo: productos ERP
+		\end{itemize}
+	\end{itemize}
+\end{itemize}
+
+\subsection {Modelo de desarrollo Open Source}
+\begin{itemize}
+	\item El desarrollo está distribuido entre múltiples equipos
+	\item Trabajan en diferentes ubicaciones
+	\item Estructura flexible, resistente a llegadas o partidas de desarrolladores
+	\item Procesos definidos para incorporar e integrar código
+	\item Comunicación autodocumentada
+	\item Desarrollo asincrónico
+	\item Características del producto son desarrolladas incrementalmente
+\end{itemize}
+
+
+	
 \subsection {Modelos de negocio}
-\nota {Crowdfunding}
+\begin{itemize}
+	\item Roles alternativos
+	\begin{itemize}
+		\item Desarrollo de SL
+		\item Capacitación, instalación, soporte, personalización, consultoría, apoyo 
+		\item Integración de sistemas
+		\item Distribución de SL (RedHat, Novell)
+		\item Distribución de accesorios (libros, CDs)	
+	\end{itemize}
 
-\subsection {Colaboración con proyectos libres}
+	\item Monetización del desarrollo o servicios de distribución
+	\begin{itemize}
+	\item Publicidad on line
+	\item Partnership con empresas de Internet
+	\item \emph{Crowdfunding}, \emph{perking}
+	\end{itemize}
+
+	\item \url{http://www.bilib.es/recursos/documentacion/}
+\end{itemize}
+
+
+\subsection {Motivaciones para producir SL}
+\begin{itemize}
+	\item Partir de una solución parcial preexistente
+	\subitem Facilitar la puesta en marcha del proyecto
+	\subitem Ahorro en costos de análisis y desarrollo
+	\subitem Aprovechar la plataforma de usuarios y desarrolladores
+	\subitem Acceder a testing masivo y gratuito
+	\item Influir en la agenda de desarrollo del proyecto
+	\subitem Upstreaming
+	\subitem Roles de mantenedor, traductor, documentador, etc.
+	\subitem Darle persistencia o diferentes alcances al proyecto
+	\item Compartir el esfuerzo de desarrollo con pares
+	\subitem Empresas del mismo ramo, organizaciones del mismo nivel
+	\subitem Capitalizar las ideas, descubrimientos y desarrollos de los demás
+\end{itemize}
 
 \subsection {SL en las organizaciones}
 \subsubsection {Administración pública}
-\subsubsection {Educación pública}
+\begin{itemize}
+	\item La AP administra registros de información que son propiedad de los ciudadanos
+	\item Tiene la responsabilidad de custodiarlos y garantizar su privacidad, integridad, persistencia y accesibilidad
+	\item Debe seleccionar las mejores herramientas tecnológicas para implementar la política de información, incluyendo aplicaciones, protocolos y formatos de datos
+	\item Debe ser cuidadoso en sus inversiones en herramientas tecnológicas
+	\item Debe aprovechar los nichos de funcionalidad común en las administraciones locales o regionales, compatibilizando y compartiendo una base de software e información  
+	\item \emph{La Administración Pública como receptora de proyectos internos de software libre}, Francesc Rambla i Marigot, 2009, UOC \footnote{\url{http://cv.uoc.edu/autors/MostraPDFMaterialAction.do?id=154680}}
+	\item \emph{Razones por las que el Estado debe usar Software Libre}, Federico Heinz, 2001 \footnote{\url{http://proposicion.org.ar/doc/razones.html}}
+\nota{	\item Proyecto Munix, Rosario \footnote{\url{http://www.rosario.gov.ar/sitio/gobierno/munix1.jsp}}
+	\subitem Objetivos
+	\subsubitem Promover el acceso a la información pública a todos los ciudadanos.
+	\subsubitem Incrementar el nivel de seguridad en la información.
+	\subsubitem Centralizar la administración de la información.
+	\subsubitem Revertir la obsolescencia del equipamiento.
+	\subsubitem Prevenir posibles irregularidades en el uso de software licenciado.
+	\subsubitem Fomentar el desarrollo de la industria de software local.
+	}
+\end{itemize}
+ 
+\nota {\subsubsection {Educación pública}
+}
+
 \subsubsection {Sector privado}
+\begin{itemize}
+	\item Objetivos
+		\begin{itemize}
+		\item Competir con líderes de mercado en posición ventajosa
+		\item Aumentar la participación en un mercado
+		\item Investigar la aceptación del mercado hacia un producto, reduciendo riesgos
+		\item Aprovechar promoción gratuita generada por la libre distribución 
+		\item Desarrollar un sistema de soporte a bajo costo
+		\item Acceder a desarrolladores capacitados
+		\item Reducir el tiempo de llegada a los mercados
+		\end{itemize}
+	\item Modelos de Negocio
+	\begin{itemize}
+
+		\item Doble Licenciamiento
+		\subitem Este modelo se basa en la distribución de un producto bajo dos licencias distintas: una licencia propietaria tradicional, y una licencia libre restrictiva (tipo GPL). De esta manera, si alguien quiere generar un trabajo derivado, y redistribuirlo sin el código, puede hacerlo, pero deberá pagar una licencia. De lo contrario, todos los trabajos derivados deben redistribuirse con el código.
+
+
+		\item \emph{Open Core} o núcleo abierto
+		\subitem En este modelo existen dos versiones distintas de un programa, una versión básica libre, y una versión comercial propietaria, basada en la anterior, pero con funcionalidad adicional
+implementada a través de plugins o accesorios. La versión libre debe emplear
+una licencia de tipo MPL o BSD, que permita la combinación para crear un
+producto cerrado.
+
+		\item Software como Servicio (SaS)
+		\subitem Las empresas desarrolladoras de un producto también podrán explotarlo mediante el paradigma de software como servicio. En lugar de ofrecer servicios de instalación y soporte, la empresa se hace cargo de toda la infraestructura de hardware y software, ofreciendo directamente la funcionalidad a través de Internet. Los ingresos generados, de naturaleza recurrente, toman la forma de subscripciones al servicio.
+ 
+		\item Capacitación y servicios conexos
+		\subitem Capitalizar la experiencia de los líderes de proyecto ofreciendo servicios conexos a los productos libres.
+	\end{itemize}	
+\end{itemize}
+
+

@@ -14,13 +14,184 @@
 
 \section{Uso y aplicación de Software Libre}
 
+\nota{
 \subsection{Aspectos económicos}
 \begin{itemize}
 	\item Productos, Soluciones y Servicios
-	\item Modelos de negocio\footnote{\url{http://www.fsfla.org/~lxoliva/papers/free-software/beautiful-mind.pdf}
-} 
+	\item Modelos de negocio\footnote{\url{http://www.fsfla.org/~lxoliva/papers/free-software/beautiful-mind.pdf}}
+ 
+
 	\item Proceso de migración
 	\item Costo total de operación
 \end{itemize}
 \subsection{SL en el sector público}
 \label{sub:SLenelsectorpúblico}
+}
+
+\subsection {Selección de Software Libre}
+\begin{itemize}
+	\item Cualidades del software
+		\subitem Proyecto vivo y en actividad
+		\subitem Proyecto más aceptado
+		\subitem Estable y maduro
+		\subitem Tendencia
+	\item Cualidades de la organización
+		\subitem Impacto que provocará el cambio
+		\subitem Estudio de Costos/Beneficios 
+		\subitem ${C_1/B_1 \longleftrightarrow C_2/B_2}$
+		\subitem Estudio de Costo Total de Propiedad de ambas soluciones
+		\subitem Riesgos
+		\subsubitem Taxonomía de riesgos (ver Anexo \ref{sec:CuestionarioRiesgos})
+	\item Valuación de costos, beneficios, riesgos
+	\subitem Difícil en forma absoluta
+	\subitem Cuando se trata de comparar se puede fijar una escala adimensional
+	\subitem Los riesgos se pueden computar como ${probabilidad de ocurrencia * gravedad}$
+\end{itemize}
+
+\subsection {Administración de TI}
+\begin{itemize}
+	\item Frameworks de administración de Tecnologías de Información (TI)
+	\item Compendios de mejores prácticas
+		\subitem CobiT \url{}
+			\subsubitem TI en general
+			\subsubitem Libremente reproducible
+		\subitem ITIL \url{}
+			\subsubitem Servicios
+			\subsubitem Más detallada
+			\subsubitem Licencia restrictiva
+		\subitem ISO
+\end{itemize}
+
+\subsection {CobiT}
+\begin{itemize}
+	\item CobiT define 34 procesos de TI. Incluye herramientas para medición de desempeño, una taxonomía de factores críticos de éxito, y modelos de madurez para asistir en la toma de decisiones hacia el mejoramiento de capacidades. 
+	\item Objetivos de CobiT
+		\subitem Asegurar que 
+		\subsubitem TI se alinea con la actividad de la organización
+		\subsubitem TI habilita las operaciones y maximiza los beneficios
+		\subsubitem Los recursos se usen responsablemente
+		\subsubitem Los riesgos se manejen adecuadamente
+	\item Dominios definidos en CobiT
+		\subitem Plan and Organise (PO)
+		\subitem Acquire and Implement (AI)
+		\subitem Deliver and Support (DS)
+		\subitem Monitor and Evaluate (ME)
+	\emph {
+		\subitem \quotes{Acquire and Implement, AI}
+		\subsubitem Identify Automated Solutions
+		\subsubitem Acquire and Maintain Application Software
+		\subsubitem Acquire and Maintain Technology Infrastructure
+		\subsubitem Enable Operation and Use
+		\subsubitem Procure IT Resources
+		\subsubitem Manage Changes
+		\subsubitem Install and Accredit Solutions and Changes
+	}
+\end{itemize}
+
+\figura {cobit}{Un ejemplo de guía de actividades de CobIT}{CobIT-RACI.png}
+
+
+
+
+
+\subsection {Migraciones en general}
+\begin{itemize}
+	\item Difícil por la naturaleza de los sistemas privativos
+	\item Apoyo de los usuarios
+	\subitem Se necesitan defensores del cambio
+	\subitem Información para involucrarlos
+	\item Diagnosticar claramente el escenario de partida
+	\subitem Hardware, software, configuración de la red, usuarios
+	\item Definir la situación final deseada
+	\item Justificar la migración
+	\subitem Análisis de costos de la migración y proyección de ahorros factibles
+	\item Planificar la migración
+	\item Migración de los datos
+	\item Preparar y capacitar el equipo técnico
+\end{itemize}
+
+\subsection {Formas de migración a SL}
+\begin{itemize}
+	\item Repentina
+		\subitem Riesgosa
+		\subitem Requiere gran inversión en capacitación
+	\item Progresiva
+	\begin{enumerate}
+		\item Usando SL bajo el sistema operativo existente
+		\item Migrando los datos progresivamente
+		\item Migrando los ambientes y sistemas operativos	
+	\end{enumerate}
+\end{itemize}
+
+\subsection {Facilitar migración futura}
+\begin{enumerate}
+	\item Usar Formatos y estándares abiertos
+	\item Usar metodologías basadas en capas para el desarrollo, separando código de interfaz y de acceso a los datos 
+	\item Generar aplicaciones portables, evitando lenguajes de arquitecturas específicas
+	\item Evitar la construcción de aplicaciones que requieran otras privativas
+	\item Desarrollos web que cumplan estándares W3C y validados contra navegadores libres
+\end{enumerate}
+
+\subsection {Costo Total de Propiedad, CTP}
+\begin{itemize}
+	\item O también \emph{Total Cost of Ownership, TCO}
+	\item Cálculo para facilitar la evaluación de costos directos e indirectos asociados con la adopción de un componente de IT 
+	\item Evaluar beneficios de la migración frente a los costos
+	\item El CTP define el costo total de la propiedad para el uso de una tecnología concreta durante el período de vida de dicha tecnología
+	\subitem Medición del impacto
+	\item Taxonomías de costos
+	\subitem Costos de adquisición
+	\subitem Costos asociados con reparaciones
+	\subitem Costos de oportunidad
+	\subitem Costos extendidos
+	\subsubitem Servicios conexos de soporte, redes, seguridad, capacitación, licenciamiento de software u otros componentes
+	\item ¿Taxonomías de \emph{beneficios}?
+\end{itemize}
+
+\subsection {Metodologías de análisis de CTP}
+\begin{itemize}
+	\item Una metodología genérica
+	\subitem \url{http://blogs.msdn.com/b/eduardop/archive/2006/05/29/610441.aspx}
+	\subitem Considera costos divididos en iniciales y operativos
+	\subitem Costo inicial de la solución ${CI = CH + CS + CINS + CCON}$
+	\subsubitem CH = Costo del hardware
+	\subsubitem CS = Costo del software
+	\subsubitem CINS = Costo de servicios iniciales de instalación
+	\subsubitem CCON = Costo de servicios iniciales de configuración
+
+	\subitem Costo de administración (CA)
+	\subsubitem Personal dedicado al mantenimiento operativo
+	\subsubitem Cálculos basados en honorarios y gastos por personal
+
+	\subitem Costo de operación (CO)
+	\subsubitem Pérdidas por caída de operación o soporte reactivo
+	\subsubitem Cálculos basados en costo de incidentes
+
+	\subitem Costo de soporte (CS)
+	\subsubitem Costo de proveer asistencia a usuarios
+	\subsubitem Basado en costo por hora de soporte
+	
+	\subitem TV = Tiempo de vida de la solución
+	\subitem Costo total ${= CI + (CA + CO + CS) * TV}$
+
+
+	\item Otra metodología orientada a SL
+	\subitem Centro de Excelencia en Software Libre U. Castilla-La Mancha
+	\subitem \url {http://www.bilib.es/documentos/Taller_de_Migracion.pdf}
+	\subitem Costo Total CT = CD + CI = Costos Directos + Costos Indirectos
+	\subsubitem Directos se producen como consecuencia de la adquisición del software
+	\subsubitem Indirectos se producen como consecuencia de pérdidas o caídas de productividad
+	\subitem ${CD = CH + CS + CSOP + CFOR + CPER}$
+	\subsubitem CH = Costo del hardware
+	\subsubitem CS = Costo de licenciamiento de software
+	\subsubitem CSOP = Costo de soporte = Instalación + Configuración + Mantenimiento
+	\subsubitem CFOR = Costo de formación del personal de operación
+	\subsubitem CPER = Costo de personal de operación
+	\subitem ${CI = CM + CC + CSEG + CE + CDISP}$
+	\subsubitem CM = Costo de mantenimiento por errores o problemas del software
+	\subsubitem CC = Costo de oportunidad debido a caídas de sistema
+	\subsubitem CSEG = Costo de aseguramiento informático
+	\subsubitem CE = Costo de asegurar la escalabilidad
+	\subsubitem CDISP = Costo de asegurar la disponibilidad
+
+\end{itemize}

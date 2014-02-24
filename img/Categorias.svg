@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.2" width="297mm" height="210mm" viewBox="0 0 29700 21000" preserveAspectRatio="xMidYMid" fill-rule="evenodd" clip-path="url(#presentation_clip_path)" stroke-width="28.222" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg" xmlns:ooo="http://xml.openoffice.org/svg/export" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve">
+ <defs class="ClipPathGroup">
+  <clipPath id="presentation_clip_path" clipPathUnits="userSpaceOnUse">
+   <rect x="0" y="0" width="29700" height="21000"/>
+  </clipPath>
+ </defs>
+ <defs class="TextShapeIndex">
+  <g ooo:slide="id1" ooo:id-list="id3 id4 id5 id6 id7 id8 id9 id10 id11 id12 id13 id14 id15"/>
+ </defs>
+ <defs class="EmbeddedBulletChars">
+  <g id="bullet-char-template(57356)" transform="scale(0.00048828125,-0.00048828125)">
+   <path d="M 580,1141 L 1163,571 580,0 -4,571 580,1141 Z"/>
+  </g>
+  <g id="bullet-char-template(57354)" transform="scale(0.00048828125,-0.00048828125)">
+   <path d="M 8,1128 L 1137,1128 1137,0 8,0 8,1128 Z"/>
+  </g>
+  <g id="bullet-char-template(10146)" transform="scale(0.00048828125,-0.00048828125)">
+   <path d="M 174,0 L 602,739 174,1481 1456,739 174,0 Z M 1358,739 L 309,1346 659,739 1358,739 Z"/>
+  </g>
+  <g id="bullet-char-template(10132)" transform="scale(0.00048828125,-0.00048828125)">
+   <path d="M 2015,739 L 1276,0 717,0 1260,543 174,543 174,936 1260,936 717,1481 1274,1481 2015,739 Z"/>
+  </g>
+  <g id="bullet-char-template(10007)" transform="scale(0.00048828125,-0.00048828125)">
+   <path d="M 0,-2 C -7,14 -16,27 -25,37 L 356,567 C 262,823 215,952 215,954 215,979 228,992 255,992 264,992 276,990 289,987 310,991 331,999 354,1012 L 381,999 492,748 772,1049 836,1024 860,1049 C 881,1039 901,1025 922,1006 886,937 835,863 770,784 769,783 710,716 594,584 L 774,223 C 774,196 753,168 711,139 L 727,119 C 717,90 699,76 672,76 641,76 570,178 457,381 L 164,-76 C 142,-110 111,-127 72,-127 30,-127 9,-110 8,-76 1,-67 -2,-52 -2,-32 -2,-23 -1,-13 0,-2 Z"/>
+  </g>
+  <g id="bullet-char-template(10004)" transform="scale(0.00048828125,-0.00048828125)">
+   <path d="M 285,-33 C 182,-33 111,30 74,156 52,228 41,333 41,471 41,549 55,616 82,672 116,743 169,778 240,778 293,778 328,747 346,684 L 369,508 C 377,444 397,411 428,410 L 1163,1116 C 1174,1127 1196,1133 1229,1133 1271,1133 1292,1118 1292,1087 L 1292,965 C 1292,929 1282,901 1262,881 L 442,47 C 390,-6 338,-33 285,-33 Z"/>
+  </g>
+  <g id="bullet-char-template(9679)" transform="scale(0.00048828125,-0.00048828125)">
+   <path d="M 813,0 C 632,0 489,54 383,161 276,268 223,411 223,592 223,773 276,916 383,1023 489,1130 632,1184 813,1184 992,1184 1136,1130 1245,1023 1353,916 1407,772 1407,592 1407,412 1353,268 1245,161 1136,54 992,0 813,0 Z"/>
+  </g>
+  <g id="bullet-char-template(8226)" transform="scale(0.00048828125,-0.00048828125)">
+   <path d="M 346,457 C 273,457 209,483 155,535 101,586 74,649 74,723 74,796 101,859 155,911 209,963 273,989 346,989 419,989 480,963 531,910 582,859 608,796 608,723 608,648 583,586 532,535 482,483 420,457 346,457 Z"/>
+  </g>
+  <g id="bullet-char-template(8211)" transform="scale(0.00048828125,-0.00048828125)">
+   <path d="M -4,459 L 1135,459 1135,606 -4,606 -4,459 Z"/>
+  </g>
+ </defs>
+ <defs class="TextEmbeddedBitmaps"/>
+ <g>
+  <g id="id2" class="Master_Slide">
+   <g id="bg-id2" class="Background"/>
+   <g id="bo-id2" class="BackgroundObjects"/>
+  </g>
+ </g>
+ <g class="SlideGroup">
+  <g>
+   <g id="id1" class="Slide" clip-path="url(#presentation_clip_path)">
+    <g class="Page">
+     <g class="com.sun.star.drawing.CustomShape">
+      <g id="id3">
+       <path fill="rgb(207,231,229)" fill-opacity="0.502" stroke="rgb(255,255,255)" stroke-opacity="0.502" d="M 14850,20000 L 1000,20000 1000,1000 28700,1000 28700,20000 14850,20000 Z"/>
+       <path fill="none" stroke="rgb(52,101,175)" d="M 14850,20000 L 1000,20000 1000,1000 28700,1000 28700,20000 14850,20000 Z"/>
+      </g>
+     </g>
+     <g class="com.sun.star.drawing.ClosedBezierShape">
+      <g id="id4">
+       <path fill="rgb(255,255,153)" stroke="none" d="M 1000,20000 L 1000,999 11687,999 C 15725,3419 18272,7374 18272,11984 18272,15025 17163,17782 15249,20000 L 1000,20000 Z"/>
+       <path fill="none" stroke="rgb(52,101,175)" d="M 1000,20000 L 1000,999 11687,999 C 15725,3419 18272,7374 18272,11984 18272,15025 17163,17782 15249,20000 L 1000,20000 Z"/>
+      </g>
+     </g>
+     <g class="com.sun.star.drawing.TextShape">
+      <g id="id5">
+       <text class="TextShape"><tspan class="TextParagraph" font-family="Liberation Sans, sans-serif" font-size="847px" font-weight="700"><tspan class="TextPosition" x="3409" y="2872"><tspan fill="rgb(0,0,0)" stroke="none">Software Libre </tspan></tspan><tspan class="TextPosition" x="5974" y="3816"><tspan fill="rgb(0,0,0)" stroke="none">o </tspan></tspan></tspan><tspan class="TextParagraph" font-family="Liberation Sans, sans-serif" font-size="847px" font-weight="700"><tspan class="TextPosition" x="3551" y="4760"><tspan fill="rgb(0,0,0)" stroke="none">Free Software</tspan></tspan></tspan></text>
+      </g>
+     </g>
+     <g class="com.sun.star.drawing.ClosedBezierShape">
+      <g id="id6">
+       <path fill="rgb(114,159,207)" fill-opacity="0.502" stroke="rgb(255,255,255)" stroke-opacity="0.502" d="M 28700,19953 C 16275,19572 7096,16451 7096,12445 7096,8438 16275,5318 28700,4937 L 28700,19953 Z"/>
+       <path fill="none" stroke="rgb(52,101,175)" d="M 28700,19953 C 16275,19572 7096,16451 7096,12445 7096,8438 16275,5318 28700,4937 L 28700,19953 Z"/>
+      </g>
+     </g>
+     <g class="Group">
+      <g class="com.sun.star.drawing.CustomShape">
+       <g id="id7">
+        <path fill="rgb(255,255,102)" fill-opacity="0.502" stroke="rgb(255,255,255)" stroke-opacity="0.502" d="M 11095,5571 C 16387,5571 20429,8568 20429,12492 20429,16416 16387,19413 11095,19413 5803,19413 1761,16416 1761,12492 1761,8568 5803,5571 11095,5571 Z M 1761,5571 L 1761,5571 Z M 20431,19415 L 20431,19415 Z"/>
+        <path fill="none" stroke="rgb(52,101,175)" d="M 11095,5571 C 16387,5571 20429,8568 20429,12492 20429,16416 16387,19413 11095,19413 5803,19413 1761,16416 1761,12492 1761,8568 5803,5571 11095,5571 Z"/>
+        <path fill="none" stroke="rgb(52,101,175)" d="M 1761,5571 L 1761,5571 Z"/>
+        <path fill="none" stroke="rgb(52,101,175)" d="M 20431,19415 L 20431,19415 Z"/>
+        <text class="TextShape"><tspan class="TextParagraph" font-family="Liberation Sans, sans-serif" font-size="847px" font-weight="700"><tspan class="TextPosition" x="8463" y="7123"><tspan fill="rgb(0,0,0)" stroke="none">Open Source</tspan></tspan></tspan></text>
+       </g>
+      </g>
+      <g class="com.sun.star.drawing.CustomShape">
+       <g id="id8">
+        <path fill="rgb(204,204,0)" fill-opacity="0.502" stroke="rgb(255,255,255)" stroke-opacity="0.502" d="M 8298,10952 C 11286,10952 13569,11425 13569,12045 13569,12665 11286,13138 8298,13138 5310,13138 3028,12665 3028,12045 3028,11425 5310,10952 8298,10952 Z M 3028,10952 L 3028,10952 Z M 13570,13139 L 13570,13139 Z"/>
+        <path fill="none" stroke="rgb(52,101,175)" d="M 8298,10952 C 11286,10952 13569,11425 13569,12045 13569,12665 11286,13138 8298,13138 5310,13138 3028,12665 3028,12045 3028,11425 5310,10952 8298,10952 Z"/>
+        <path fill="none" stroke="rgb(52,101,175)" d="M 3028,10952 L 3028,10952 Z"/>
+        <path fill="none" stroke="rgb(52,101,175)" d="M 13570,13139 L 13570,13139 Z"/>
+        <text class="TextShape"><tspan class="TextParagraph" font-family="Liberation Sans, sans-serif" font-size="847px" font-weight="700"><tspan class="TextPosition" x="4040" y="12339"><tspan fill="rgb(0,0,0)" stroke="none">Licencias permisivas</tspan></tspan></tspan></text>
+       </g>
+      </g>
+      <g class="com.sun.star.drawing.CustomShape">
+       <g id="id9">
+        <path fill="rgb(230,230,76)" fill-opacity="0.502" stroke="rgb(255,255,255)" stroke-opacity="0.502" d="M 10884,7660 C 14275,7660 16865,8265 16865,9057 16865,9849 14275,10454 10884,10454 7493,10454 4903,9849 4903,9057 4903,8265 7493,7660 10884,7660 Z M 4903,7660 L 4903,7660 Z M 16867,10455 L 16867,10455 Z"/>
+        <path fill="none" stroke="rgb(52,101,175)" d="M 10884,7660 C 14275,7660 16865,8265 16865,9057 16865,9849 14275,10454 10884,10454 7493,10454 4903,9849 4903,9057 4903,8265 7493,7660 10884,7660 Z"/>
+        <path fill="none" stroke="rgb(52,101,175)" d="M 4903,7660 L 4903,7660 Z"/>
+        <path fill="none" stroke="rgb(52,101,175)" d="M 16867,10455 L 16867,10455 Z"/>
+        <text class="TextShape"><tspan class="TextParagraph" font-family="Liberation Sans, sans-serif" font-size="847px" font-weight="700"><tspan class="TextPosition" x="7449" y="8879"><tspan fill="rgb(0,0,0)" stroke="none">Dominio público </tspan></tspan><tspan class="TextPosition" x="8510" y="9823"><tspan fill="rgb(0,0,0)" stroke="none">con fuentes</tspan></tspan></tspan></text>
+       </g>
+      </g>
+      <g class="Group">
+       <g class="com.sun.star.drawing.CustomShape">
+        <g id="id10">
+         <path fill="rgb(179,179,0)" fill-opacity="0.502" stroke="rgb(255,255,255)" stroke-opacity="0.502" d="M 11007,13511 C 13903,13511 16116,14555 16116,15923 16116,17291 13903,18336 11007,18336 8111,18336 5899,17291 5899,15923 5899,14555 8111,13511 11007,13511 Z M 5899,13511 L 5899,13511 Z M 16118,18338 L 16118,18338 Z"/>
+         <path fill="none" stroke="rgb(52,101,175)" d="M 11007,13511 C 13903,13511 16116,14555 16116,15923 16116,17291 13903,18336 11007,18336 8111,18336 5899,17291 5899,15923 5899,14555 8111,13511 11007,13511 Z"/>
+         <path fill="none" stroke="rgb(52,101,175)" d="M 5899,13511 L 5899,13511 Z"/>
+         <path fill="none" stroke="rgb(52,101,175)" d="M 16118,18338 L 16118,18338 Z"/>
+         <text class="TextShape"><tspan class="TextParagraph" font-family="Liberation Sans, sans-serif" font-size="847px" font-weight="700"><tspan class="TextPosition" x="9315" y="15274"><tspan fill="rgb(0,0,0)" stroke="none">Copyleft</tspan></tspan></tspan></text>
+        </g>
+       </g>
+       <g class="com.sun.star.drawing.CustomShape">
+        <g id="id11">
+         <path fill="rgb(179,179,0)" fill-opacity="0.502" stroke="rgb(255,255,255)" stroke-opacity="0.502" d="M 11455,15905 C 12818,15905 13859,16344 13859,16920 13859,17496 12818,17936 11455,17936 10092,17936 9051,17496 9051,16920 9051,16344 10092,15905 11455,15905 Z M 9051,15905 L 9051,15905 Z M 13861,17938 L 13861,17938 Z"/>
+         <path fill="none" stroke="rgb(52,101,175)" d="M 11455,15905 C 12818,15905 13859,16344 13859,16920 13859,17496 12818,17936 11455,17936 10092,17936 9051,17496 9051,16920 9051,16344 10092,15905 11455,15905 Z"/>
+         <path fill="none" stroke="rgb(52,101,175)" d="M 9051,15905 L 9051,15905 Z"/>
+         <path fill="none" stroke="rgb(52,101,175)" d="M 13861,17938 L 13861,17938 Z"/>
+         <text class="TextShape"><tspan class="TextParagraph" font-family="Liberation Sans, sans-serif" font-size="847px" font-weight="700"><tspan class="TextPosition" x="10586" y="17215"><tspan fill="rgb(0,0,0)" stroke="none">GPL</tspan></tspan></tspan></text>
+        </g>
+       </g>
+      </g>
+     </g>
+     <g class="com.sun.star.drawing.TextShape">
+      <g id="id12">
+       <text class="TextShape"><tspan class="TextParagraph" font-family="Liberation Sans, sans-serif" font-size="847px" font-weight="700"><tspan class="TextPosition" x="21913" y="11035"><tspan fill="rgb(0,0,0)" stroke="none">Software de </tspan></tspan><tspan class="TextPosition" x="21562" y="11979"><tspan fill="rgb(0,0,0)" stroke="none">libre descarga</tspan></tspan></tspan></text>
+      </g>
+     </g>
+     <g class="Group">
+      <g class="com.sun.star.drawing.CustomShape">
+       <g id="id13">
+        <path fill="rgb(153,204,255)" fill-opacity="0.502" stroke="rgb(255,255,255)" stroke-opacity="0.502" d="M 23414,14715 C 25610,14715 27287,15512 27287,16556 27287,17600 25610,18397 23414,18397 21218,18397 19541,17600 19541,16556 19541,15512 21218,14715 23414,14715 Z M 19541,14715 L 19541,14715 Z M 27289,18399 L 27289,18399 Z"/>
+        <path fill="none" stroke="rgb(52,101,175)" d="M 23414,14715 C 25610,14715 27287,15512 27287,16556 27287,17600 25610,18397 23414,18397 21218,18397 19541,17600 19541,16556 19541,15512 21218,14715 23414,14715 Z"/>
+        <path fill="none" stroke="rgb(52,101,175)" d="M 19541,14715 L 19541,14715 Z"/>
+        <path fill="none" stroke="rgb(52,101,175)" d="M 27289,18399 L 27289,18399 Z"/>
+        <text class="TextShape"><tspan class="TextParagraph" font-family="Liberation Sans, sans-serif" font-size="847px" font-weight="700"><tspan class="TextPosition" x="21275" y="16851"><tspan fill="rgb(0,0,0)" stroke="none">Shareware</tspan></tspan></tspan></text>
+       </g>
+      </g>
+     </g>
+     <g class="com.sun.star.drawing.CustomShape">
+      <g id="id14">
+       <path fill="rgb(71,184,184)" fill-opacity="0.502" stroke="rgb(255,255,255)" stroke-opacity="0.502" d="M 22716,3631 C 25524,3631 27669,4408 27669,5426 27669,6444 25524,7222 22716,7222 19908,7222 17764,6444 17764,5426 17764,4408 19908,3631 22716,3631 Z M 17764,3631 L 17764,3631 Z M 27671,7223 L 27671,7223 Z"/>
+       <path fill="none" stroke="rgb(52,101,175)" d="M 22716,3631 C 25524,3631 27669,4408 27669,5426 27669,6444 25524,7222 22716,7222 19908,7222 17764,6444 17764,5426 17764,4408 19908,3631 22716,3631 Z"/>
+       <path fill="none" stroke="rgb(52,101,175)" d="M 17764,3631 L 17764,3631 Z"/>
+       <path fill="none" stroke="rgb(52,101,175)" d="M 27671,7223 L 27671,7223 Z"/>
+       <text class="TextShape"><tspan class="TextParagraph" font-family="Liberation Sans, sans-serif" font-size="847px" font-weight="700"><tspan class="TextPosition" x="19400" y="5249"><tspan fill="rgb(0,0,0)" stroke="none">Dominio público</tspan></tspan></tspan><tspan class="TextParagraph" font-family="Liberation Sans, sans-serif" font-size="847px" font-weight="700"><tspan class="TextPosition" x="20482" y="6193"><tspan fill="rgb(0,0,0)" stroke="none">sin fuentes</tspan></tspan></tspan></text>
+      </g>
+     </g>
+     <g class="com.sun.star.drawing.TextShape">
+      <g id="id15">
+       <text class="TextShape"><tspan class="TextParagraph" font-family="Liberation Sans, sans-serif" font-size="847px" font-weight="700"><tspan class="TextPosition" x="15038" y="2620"><tspan fill="rgb(0,0,0)" stroke="none">Software Propietario</tspan></tspan></tspan></text>
+      </g>
+     </g>
+    </g>
+   </g>
+  </g>
+ </g>
+</svg>

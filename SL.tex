@@ -24,10 +24,10 @@
 \makeatother  
 % List styles
 \newcommand\liststyleLi{%
-\renewcommand\labelitemi{{\blacksquare}}
-\renewcommand\labelitemii{${\circ}$}
-\renewcommand\labelitemiii{${\blacksquare}$}
-\renewcommand\labelitemiv{{\textbullet}}
+\renewcommand\labelitemi{\tiny${\blacksquare}$}
+\renewcommand\labelitemii{\tiny${\square}$}
+\renewcommand\labelitemiii{\tiny${\circ}$}
+\renewcommand\labelitemiv{\tiny${\circ}$}
 }
 \newcommand\liststyleLii{%
 \renewcommand\labelitemi{{\textbullet}}
@@ -42,6 +42,7 @@
 \renewcommand\labelitemiv{{\textbullet}}
 }
 
+\liststyleLi
 
 % Page layout (geometry)
 \setlength\voffset{-1in}
@@ -80,12 +81,14 @@
 \usepackage{graphicx}
 
 \usepackage{xkeyval}
-
+\usepackage{pifont}
 \usepackage{xcolor}
 \newcommand{\revisar}[1]{{\color{red}[#1]}}
 %\newcommand{\nota}[1]{{\color{red}[#1]}}
 %\newcommand{\revisar}[1]{}
 \newcommand{\nota}[1]{}
+
+\newcommand{\nonota}[1]{#1}
 
 \newcommand{\quotes}[1]{``#1''}
 
@@ -98,7 +101,7 @@
 \newcommand{\figura}[4][15]{
  \begin{figure}[htbp] 
  \centering 
- \includegraphics[width=#1cm]{#4} 
+ \includegraphics[width=#1cm]{./img/#4} 
  \caption{#3} 
  \label{fig:#2} 
  \end{figure} 
@@ -110,7 +113,7 @@
 
 \maketitle
 
-
+\revisar{V0.6 - Material en preparación, se ruega no imprimir mientras aparezca esta nota}
 
 \abstract { En este escrito se presenta la descripción y material inicial de la asignatura \textbf{Software Libre}, para la carrera de Tecnicatura Universitaria en Administración de Sistemas y Software Libre, de la Universidad Nacional del Comahue. 
 
@@ -137,9 +140,13 @@ La materia es cuatrimestral en modalidad presencial y las clases son de carácte
 \part {El Software Libre}
 
 \input {SL-part2-1}
+\newpage
 \input {SL-part2-2}
+\newpage
 \input {SL-part2-3}
+\newpage
 \input {SL-part2-4}
+\newpage
 \input {SL-part2-5}
 
 

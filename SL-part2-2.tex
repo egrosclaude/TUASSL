@@ -6,44 +6,137 @@
 \nota {	\item Aspectos técnicos. Proyectos de Software Libre. Modelo de desarrollo. Infraestructura tecnológica. Manejo de documentación y soporte. Seguridad.
 }
  
-
 \section{Aspectos técnicos}
 \subsection {Código fuente y ejecutables} 
+\begin{itemize}
+	\item Lenguajes de programación
+	\subitem Lenguajes compilados
+	\subitem Lenguajes interpretados
+	\item Formatos de archivos y documentos
+	\subitem Archivos legibles por humanos
+	\subsubitem Documentación: READMEs, Markup Languages, .pod, TeX/LaTeX, .rst...
+	\subsubitem Configuración o datos: XML, YAML, .cfg,...
+	\subitem Archivos estructurados
+	\subsubitem Formatos abiertos y propietarios
+	\subsubitem Formato .DOC, formato .odt
+	\item Protocolos e interfaces
+	\subitem Protocolos de Internet vs. protocolos propietarios
+	\subitem RFCs 
+	\item Bibliotecas
+	\subitem Linking o vinculación
+	\subitem Linking dinámico, Shared Objects (.so), DLLs
+\end{itemize}
 
-Lenguajes de programación
+\subsection {Ciclo de compilación}
+\figura[10]{ciclo}{Ciclo de compilación y ejecución}{ciclo_de_compilacion.eps}
 
-Formatos de documentos
+\figura[10]{fuente}{Código fuente en lenguaje C}{bibliotecas-src-0.eps}
 
-\subsection {Proyectos de Software Libre }
+\figura{objeto}{Código objeto procedente del programa en C}{objeto.png}
 
-Motivación
 
-Perfil de desarrolladores
+\figura[10]{bibsrc1}{Un archivo fuente que usa dos funciones externas}{bibliotecas-src-1.eps}
 
-Modelo de desarrollo
+\figura[8]{bibsrc2}{Archivo fuente conteniendo funciones}{bibliotecas-src-2.eps}
 
-La Catedral y el Bazar 
+\figura[10]{bib1}{Compilación de los archivos fuente generando módulos objeto}{bibliotecas-1.eps}
+
+\figura[10]{bib2}{Vinculación estática de objetos generando un ejecutable}{bibliotecas-2.eps}
+
+\figura[10]{bib3}{Creación de una biblioteca compartida (\emph{shared object})}{bibliotecas-3.eps}
+
+\figura[8]{bib4}{Uso de bibliotecas de vinculación dinámica}{bibliotecas-4.eps}
+
+\figura[10]{bib5}{Compartiendo funciones de biblioteca}{bibliotecas-5.eps}
+
+\subsection {Proyectos de Software Libre}
+\begin{itemize}
+	\item Motivación
+	\item Perfil de los desarrolladores
+	\item Modelo de desarrollo
+	\item Comunidad y vitalidad
+\end{itemize}
+
+\subsubsection{La Catedral y el Bazar }
+\begin{itemize}
+	\item La Catedral y el Bazar vs. la Ingeniería de Software
+	\item Representa la postura del movimiento Open Source
+	\item Historia informal y razonada de un proyecto de SL
+	\item Dos modelos de desarrollo
+	\item Motivación y equipo de desarrollo inicial 
+	\item Reutilizar antes que desarrollar desde cero
+	\item Roles de los usuarios
+	\item Liberar rápido y con frecuencia
+\end{itemize}
+
+\begin{tabular}{c|c|c}
+ & Catedral & Bazar  \\
+\hline
+\hline
+Gobierno & Vertical & Democrático \\
+\hline
+Roles 	 & Asignados & Libres \\
+		 & Estáticos & Móviles \\
+\hline
+Usuarios & Clientes & Co-desarrolladores \\
+\hline 
+Procesos & Definidos & Multiestratégicos \\
+\hline 
+Entregas & Planificadas  	& \quotes{Cuando esté listo} \\
+		 & Poco frecuentes 	& \emph{Release early}, \\
+		 &				 	& \emph{Release often} \\
+\hline
+\end{tabular}
+
+% --------------------------------------------------------------
+
+
+
 \nota {Desarrollo abierto y colaborativo}
 
 \subsection{Infraestructura tecnológica}
-
-Internet y RFCs
-
-GitHub \url{http://github.com}
-
-Freecode \url{http://freecode.com}
-
-Comunidad y vitalidad
+\begin{itemize}
+	\item Internet y RFCs
+	\item Freecode \url{http://freecode.com}
+	\item Sourceforge \url{http://sourceforge.net}
+	\item Google Code \url{http://code.google.com}
+	\item GitHub \url{http://github.com}
+\end{itemize}
 
 
 \figura{freecode}{Nube de tópicos (\emph{tags}) de Freecode.org}{freecode.png}
 
-\figura[10]{fuente}{Código fuente en lenguaje C}{main.png}
-\figura{objeto}{Código objeto procedente del programa en C}{objeto.png}
+\figura{github}{Interfaz del repositorio Github}{github.png}
 
+\figura{googlecode}{Interfaz del repositorio Google Code}{googlecode.png}
 
+\figura{centos}{Interfaz de edición del wiki de una distribución GNU/Linux}{centos.png}
+
+\nota{
 \subsection {Documentación y soporte}
 \nota{CentOS,GLPI,Bandwidth Arbitrator,mosshe,tcng,zim,Libre Office }
 \nota{Libro libre de Redes Olivier Bonaventure}
-
 \subsection {Seguridad}
+}
+
+
+
+\subsection {Preguntas}
+
+\begin{enumerate}
+	\item ¿Cómo se pueden resumir las diferencias entre \emph{la catedral} y \emph{el bazar}?
+	\item ¿Por qué en \emph{La Catedral y El Bazar} se hace énfasis en la capacidad de reutilizar código? ¿Qué relación especial tiene esta capacidad con el SL? 
+	\item ¿Cómo suele tener origen un proyecto de SL? ¿Cuál suele ser el disparador o motivador de la creación de un proyecto nuevo? ¿En qué casos se considera necesario comenzar un proyecto nuevo en lugar de aprovechar proyectos existentes?
+	\item ¿Qué roles asigna el modelo del Bazar a los usuarios del software?
+	\item ¿A qué se llama un \emph{dictador benevolente}?
+	\item ¿Por qué el modelo del Bazar recomienda la regla \quotes{liberar rápido y con frecuencia}?
+	\item ¿En qué consiste la fase de captura de requerimientos de un proyecto de software? ¿En qué momento de la vida del proyecto se da esta fase?
+	\item ¿A través de qué herramientas capturan requerimientos los proyectos de SL que usted conozca, en especial, los que su grupo está considerando para los trabajos prácticos de la materia?
+	\item ¿Qué herramientas de comunicación suelen utilizar los desarrolladores de SL? ¿Qué funciones cumplen estas herramientas (de comunicación interpersonal, de transmisión de conocimiento técnico, de transmisión o análisis de código, de descripción de procesos...)?
+	\item ¿En qué consiste la Ley de Brooks y por qué se dice que la complejidad de la interacción entre los desarrolladores se incrementa cuadráticamente? 
+	\item Según Raymond, ¿de qué modo Internet y el SL se oponen a la Ley de Brooks? ¿A qué se llama el efecto Delphi?
+	\item ¿Qué crítica se hace a esta última afirmación de Raymond, según el material \emph{Introducción al Software Libre} de Barahona y otros? 
+	\item ¿Cuáles son los rasgos que hacen a los mejores líderes de proyecto, según Raymond?
+\end{enumerate}
+
+
